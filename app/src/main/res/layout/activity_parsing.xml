@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Retrofitwithgirdandrect.ParsingActivity"
+    android:background="#3f3f">
+
+
+    <ImageView
+        android:id="@+id/malebtm"
+        android:layout_width="match_parent"
+        android:layout_height="250dp"
+        android:src="@drawable/sample12"
+        android:layout_margin="20dp"/>
+
+
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/femaleBtn"
+        android:layout_below="@id/malebtm"
+        android:src="@drawable/sample13"
+        android:layout_centerHorizontal="true"
+        android:layout_margin="20dp"/>
+
+</RelativeLayout>

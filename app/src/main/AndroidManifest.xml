@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.example.user.firstapp2"
+    android:targetSandboxVersion="1">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.CHANGE_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+
+    <application xmlns:tools="http://schemas.android.com/tools"
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="Android"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme"
+        android:usesCleartextTraffic="true"
+        tools:replace="android:label">
+        <activity android:name=".firstpage.MainActivity" />
+        <activity android:name=".firstpage.signuppage" />
+        <activity android:name=".firstpage.login" />
+        <activity android:name=".firstpage.help" />
+        <activity android:name=".firstpage.splash">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".expandableView.expandable_listview" />
+        <activity android:name=".listviewpack.customlistmain" />
+        <activity android:name=".listviewpack.afterclickcustom" />
+        <activity android:name=".firstpage.loginout" />
+        <activity android:name=".girdview.gird_Finsl" />
+        <activity android:name=".Retrofitwithgirdandrect.recViewact" />
+        <activity android:name=".Retrofitwithgirdandrect.ParsingActivity" />
+        <activity android:name=".Retrofitwithgirdandrect.ParsingRetrofitActivity" />
+        <activity
+            android:name=".Retrofitwithgirdandrect.nxtParingActivity"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Retrofitwithgirdandrect.imagebigceleb"
+            android:theme="@style/CustomTheme" />
+        <activity android:name=".basic_animation" />
+        <activity android:name=".sqlite_db" />
+        <activity android:name=".AddCountryActivity" />
+        <activity android:name=".ModifycountryActivity" />
+    </application>
+
+</manifest>

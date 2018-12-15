@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<set xmlns:android="http://schemas.android.com/apk/res/android"
+    android:fillAfter="true" >
+
+    <alpha
+        android:duration="1000"
+        android:fromAlpha="0.0"
+        android:interpolator="@android:anim/accelerate_interpolator"
+        android:toAlpha="1.0" />
+    <!--Here alpha references the opacity of an object.
+    An object with lower alpha values is more transparent,
+    while an object with higher alpha values is less transparent, more opaque.
+    Fade in animation is nothing but increasing alpha value from 0 to 1.-->
+</set>

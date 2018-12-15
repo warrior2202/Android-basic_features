@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".firstpage.signuppage"
+
+
+    >
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:textSize="40sp"
+        android:id="@+id/Signup"
+        android:text="SIGNUP PAGE"
+        android:textColor="#f4df42"
+        android:background="#ef071a"
+        android:layout_marginTop="10dp" />
+
+    <EditText
+        android:id="@+id/Edtemailid"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/Signup"
+        android:layout_marginTop="16dp"
+        android:hint="enter a valid email id "
+        android:layout_centerInParent="true"
+        android:inputType="textEmailAddress"
+        />
+    <EditText
+        android:id="@+id/Firstnam"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/Edtemailid"
+        android:layout_marginTop="16dp"
+        android:hint="enter your first name "
+        android:layout_centerInParent="true"
+        android:inputType="text"
+        android:digits="abcdefghijklmnopqrstuvwxyz"
+        />
+    <EditText
+        android:id="@+id/Lastnam"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/Firstnam"
+        android:layout_marginTop="16dp"
+        android:hint="enter your last name "
+        android:layout_centerInParent="true"
+        android:inputType="text"
+        android:digits="abcdefghijklmnopqrstuvwxyz"
+        />
+    <EditText
+        android:id="@+id/Phonenum"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/Lastnam"
+        android:layout_marginTop="16dp"
+        android:hint="enter your phone number "
+        android:layout_centerInParent="true"
+        android:digits="0123456789"
+        android:inputType="number"
+        />
+
+    <RadioGroup
+        android:id="@+id/radioGrp"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:paddingTop="16dp"
+        android:paddingLeft="8dp"
+        android:paddingRight="8dp"
+        android:layout_below="@id/Phonenum"
+        >
+        <RadioButton
+            android:id="@+id/radioM"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="left"
+            android:checked="true"
+            android:textSize="20dp"
+            android:text="Male"
+            android:layout_marginLeft="16sp"
+            />
+        <RadioButton
+            android:id="@+id/radioF"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="right"
+            android:checked="false"
+            android:textSize="20dp"
+            android:text="Female"
+            android:layout_marginLeft="16sp"
+            />
+    </RadioGroup>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/radioGrp"
+        android:id="@+id/Signupbtn"
+        android:layout_centerHorizontal="true"
+        android:text="Signup"
+        android:layout_marginTop="20sp"
+        android:background="#047BFA"
+        android:textSize="35sp"/>
+
+
+
+</RelativeLayout>

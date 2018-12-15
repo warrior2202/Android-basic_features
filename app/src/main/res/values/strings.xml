@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Nbook</string>
+    <string name="wel_msg"> weclome .</string>
+    <string name="help_adr">Address: 1213, 12th Floor, Gold Crest Business Center, L.T. Road, Borivali west, Opposite Manubhai Jewellers, Mumbai, Maharashtra 400092,trycatch@gmail.com</string>
+
+    <string name="title_activity_splash">SPLASH</string>
+    <string name="dummy_button">Dummy Button</string>
+    <string name="dummy_content">DUMMY\nCONTENT</string>
+    <string name="title_activity_napp">NAPP</string>
+
+</resources>
